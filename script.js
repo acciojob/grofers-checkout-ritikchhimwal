@@ -16,7 +16,7 @@ const getSum = () => {
 
     // Create a new row and cell for displaying the total price
     const totalRow = document.createElement("tr");
-    totalRow.classList.add("total-row"); // Add a class for easier future reference
+    totalRow.classList.add("ans"); // Add a class for easier future reference
 
     const totalCell = document.createElement("td");
     totalCell.setAttribute("colspan", "2"); // Make it span across two columns
