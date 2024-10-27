@@ -19,7 +19,8 @@ const getSum = () => {
     totalRow.classList.add("ans"); // Add a class for easier future reference
 
     const totalCell = document.createElement("td");
-    totalCell.setAttribute("colspan", "2"); // Make it span across two columns
+    totalCell.setAttribute("colspan", "2");
+	totalCell.setAttribute("id", "ans");// Make it span across two columns
     totalCell.textContent = `Total Price in Rs: ${total}`;
 
     // Append the cell to the row and the row to the table
